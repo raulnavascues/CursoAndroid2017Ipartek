@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">App02Conversor</string>
+    <string name="string_moneda_a">Diru txanpon A</string>
+    <string name="string_moneda_b">Diru txanpon B</string>
+    <string name="text_europts">€ -> Ptas</string>
+    <string name="text_ptseuro">Ptas -> €</string>
+</resources>

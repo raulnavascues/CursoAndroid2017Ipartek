@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App02Conversor</string>
+    <string name="string_moneda_a">Coin A</string>
+    <string name="string_moneda_b">Coin B</string>
+    <string name="text_europts">Euros to Ptas</string>
+    <string name="text_ptseuro">Ptas a Euros</string>
+    <string name="boton_txt">Convert</string>
+    <string name="euros">Euros</string>
+    <string name="ptas">Pesetas</string>
+</resources>

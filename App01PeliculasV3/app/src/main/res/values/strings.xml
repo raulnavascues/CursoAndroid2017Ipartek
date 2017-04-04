@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">App01Peliculas</string>
+    <string name="anyo">Año:</string>
+    <string name="duraccion_text">Duracción:</string>
+    <string name="pais_texto">País:</string>
+    <string name="guion_texto">Guión:</string>
+    <string name="sipnosis_text">Sipnosis:</string>
+    <string name="director_texto">Director:</string>
+    <string name="sipnosis_pelicula_filipinas"></string>
+</resources>

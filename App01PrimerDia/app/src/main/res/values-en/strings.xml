@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_text_nombre_hint">Write your name</string>
+    <string name="button_saludar_text">Say Hello</string>
+    <string name="hola_text">Hello</string>
+</resources>

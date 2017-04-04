@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App01Peliculas</string>
+    <string name="anyo">Year:</string>
+    <string name="duraccion_text">Duration:</string>
+    <string name="pais_texto">Country:</string>
+    <string name="guion_texto">Guión:</string>
+    <string name="sipnosis_text">Sipnosis:</string>
+    <string name="director_texto">Director:</string>
+</resources>

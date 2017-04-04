@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.arrow.app01peliculas.MainActivity"
+        android:theme="@style/AlertDialog.AppCompat.Light">
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:background="@drawable/los_ultimos_de_filipinas"
+            android:id="@+id/image_cartel" android:layout_marginRight="10dp"
+            android:layout_height="250dp"
+            android:layout_width="150dp" />
+
+        <TextView
+            android:text="@string/director_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_director_texto"
+            android:layout_below="@+id/text_view_pais_texto"
+            android:layout_toRightOf="@id/image_cartel"/>
+
+
+        <TextView
+            android:text="@string/guion_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_guion_texto"
+            android:layout_below="@+id/text_view_director"
+            android:layout_toRightOf="@+id/image_cartel"/>
+
+        <TextView
+            android:text="@string/pais_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_pais_texto"
+            android:layout_below="@+id/text_view_duraccion_texto"
+            android:layout_toRightOf="@+id/image_cartel"/>
+
+        <TextView
+            android:text="@string/duraccion_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_duraccion_texto"
+            android:layout_below="@+id/text_view_anyo_texto"
+            android:layout_toRightOf="@+id/image_cartel"/>
+
+        <TextView
+            android:text="@string/anyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_anyo_texto"
+            android:layout_toRightOf="@+id/image_cartel"
+            android:layout_alignParentTop="false"
+            android:textSize="14sp"
+            android:layout_below="@+id/text_view_titulo_lista"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:text="1898: Los ultimos de Filipinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_titulo_lista"
+            android:layout_toRightOf="@+id/image_cartel"
+            android:textSize="20sp" android:layout_marginBottom="20dp" />
+
+         <TextView
+            android:text="2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_anyo_lista"
+            android:layout_below="@+id/text_view_titulo_lista"
+            android:layout_toRightOf="@+id/text_view_duraccion_texto"
+            tools:text="2016" />
+
+        <TextView
+            android:text="España"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_pais_lista"
+            android:layout_below="@+id/text_view_duraccion"
+            android:layout_toRightOf="@+id/text_view_duraccion_texto" />
+
+        <TextView
+            android:text="Salvador Calvo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_director"
+            android:layout_below="@+id/text_view_pais_lista"
+            android:layout_toRightOf="@+id/text_view_duraccion_texto" />
+
+        <TextView
+            android:text="Alejandro Hernández"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_guion"
+            android:layout_below="@+id/text_view_director"
+            android:layout_toRightOf="@+id/text_view_duraccion_texto" />
+
+        <TextView
+            android:text="180"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_duraccion"
+            android:layout_toRightOf="@+id/text_view_duraccion_texto"
+            android:layout_below="@id/text_view_anyo_lista"/>
+
+        <TextView
+            android:text="@string/sipnosis_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_sipnosis_texto"
+            android:layout_below="@+id/image_cartel" />
+
+        <TextView
+            android:text="A finales del siglo XIX, en la colonia española de Filipinas, un destacamento español fue sitiado en el pueblo de Baler, en la isla filipina de Luzón, por insurrectos filipinos revolucionarios, durante 337 días. En diciembre de 1898, con la firma del Tratado de París entre España y Estados Unidos, se ponía fin formalmente a la guerra entre ambos países y España cedía la soberanía sobre Filipinas a Estados Unidos. Debido a esto, los sitiados en Baler son conocidos como 'los últimos de Filipina'."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_sipnosis"
+            android:layout_below="@+id/text_view_sipnosis_texto"
+            android:layout_alignParentBottom="true" />
+
+
+    </RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/list_item_pelicula"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/los_ultimos_de_filipinas_mini"
+        android:id="@+id/image_view_caratula"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_view_caratula"
+        android:layout_toRightOf="@+id/image_view_caratula"
+        android:layout_toEndOf="@+id/image_view_caratula"
+        android:id="@+id/text_view_titulo_lista"
+        tools:text="1898 Los ultimos de filipinas"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_view_anyo_lista"
+        android:layout_toRightOf="@+id/text_view_anyo_lista"
+        android:layout_toEndOf="@+id/text_view_anyo_lista"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/text_view_duracion_lista"
+        tools:text="180 min"
+        android:layout_below="@+id/text_view_titulo_lista" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_titulo_lista"
+        android:layout_toRightOf="@+id/image_view_caratula"
+        android:layout_toEndOf="@+id/image_view_caratula"
+        android:id="@+id/text_view_anyo_lista"
+        tools:text="2016"
+        android:layout_alignLeft="@+id/text_view_titulo_lista" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view_caratula"
+        android:layout_toRightOf="@+id/image_view_caratula"
+        android:id="@+id/text_view_pais_lista"
+        tools:text="España"
+        android:layout_alignLeft="@+id/text_view_titulo_lista"
+        android:layout_below="@+id/text_view_anyo_lista" />
+</RelativeLayout>

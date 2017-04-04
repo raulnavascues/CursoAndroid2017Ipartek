@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_peliculas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arrow.apppersistencia05peliculas.PeliculasActivity" android:orientation="vertical">
+
+    <TextView
+        android:text="Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_pelicula_label_text_view"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/titulo_pelicula_edit_text"
+        tools:text="Titulo de la pelicula" />
+
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guardar_button" />
+</LinearLayout>
